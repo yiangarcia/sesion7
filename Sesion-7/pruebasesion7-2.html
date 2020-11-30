@@ -1,0 +1,104 @@
+<html>
+    <head>
+	<title>Aplicaciones Visuales</title>
+    </head>
+    <body>
+    <Form method="post" action="mailto:ab@ab.com" enctype="text/plain">
+        <table>
+            <tr>
+                <td>
+                    <label for="fname">Nombre</label><br>
+                </td>
+                <td>
+                    <Input Type="text" value="" size=NN maxlength= NN>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="fname">Contraseña</label><br>
+                </td>
+                <td>
+                    <Input Type="password" value="" size=NN maxlength= NN>
+                </td>
+            </tr>
+            <tr>
+                <td>    
+                    <Input Type="radio" name="Sexo" value="Masculino" checked>Masculino
+                </td>
+                <td>
+                    <Input Type="radio" name="Sexo" value="Femenino"/>Femenino
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <Input Type="checkbox" name="Condiciones" value="Condiciones" checked/>Acepto condiciones
+                </td>
+                <td>
+                    <Input Type="checkbox" name="Publicidad" value="Publicidad"/>Acepto envío de publicidad
+                </td>
+            
+            </tr>
+            <tr>
+                <td>    
+                    <Input Type="hidden" name="Direccion" value="NO">
+                    <label for="fname">Seleccionar archivo</label><br/>
+                </td>
+                <td>
+                    <Input Type="file" name="FileName"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="image" src="download.jpg" alt="Submite" width="94" height="52">      
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="fname">Tipo de documento</label><br>
+                </td>
+                <td>
+                    <select name="Tipo Documento">
+                        <option value="CC" selected>Cédula de ciudadanía</option>
+                        <option value="LM">Libreta Militar</option>
+                        <option value="CE">Cédula de extranjería</option>
+                        <option value="PASAPORTE">Pasaporte</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="fname">País de origen</label><br>
+                </td>
+                <td>
+                    <select name="Pais" size="2">
+                        <option value="COL" selected>Colombia</option>
+                        <option value="USA">Estados Unidos</option>
+                        <option value="ESP">España</option>
+                        <option value="ITA">Italia</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="fname">Descripción</label><br>
+                </td>
+                <td>
+                    <textarea name="Comentario" cols="60" rows="5" wrap="soft">
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <Input Type="submit" Name = "Nombre1" value="Presione aquí para enviar">
+                </td>
+                <td>
+                    <Input Type="reset" Name="Nombre2" value="Presione aquí para resetear">
+                </td>
+            </tr>
+            
+            
+        </table>
+    </Form>
+        
+   </body>
+<html>
